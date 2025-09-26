@@ -43,7 +43,7 @@ const Services: React.FC = () => {
       <h2 className="text-3xl font-bold text-center text-white mb-2 font-8bit">
         <span className="text-green-400">$</span> cat ./nossos_servicos.txt
       </h2>
-      <p className="text-center text-gray-400 mb-12">Nossas especialidades para transformar sua ideia em realidade.</p>
+      <p className="text-center text-gray-400 mb-12">Criação e tecnologia para transformar sua ideia em realidade.</p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
         {services.map(service => (
           <ServiceCard key={service.title} {...service} />
