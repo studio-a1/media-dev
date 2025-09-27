@@ -1,0 +1,8 @@
+# Este é o conteúdo completo do arquivo wrangler.toml
+
+name = "studio-a1-media-dev"
+compatibility_date = "2024-01-01"
+
+# Esta é a linha mais importante.
+# Ela diz à Cloudflare para usar a pasta 'dist' como o site final a ser publicado.
+pages_build_output_dir = "dist"
