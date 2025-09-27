@@ -8,7 +8,7 @@ const services = [
   {
     icon: <CodeIcon />,
     title: "Criação de Sites e Apps",
-    description: "Desenvolvemos websites e aplicativos responsivos, modernos e otimizados para a melhor performance."
+    description: "Desenvolvemos websites e aplicativos responsivos, modernos e otimizados para a melhor performance e segurança."
   },
   {
     icon: <ServerIcon />,
