@@ -13,7 +13,7 @@ const services = [
   {
     icon: <ServerIcon />,
     title: "Gerenciamento e Hospedagem",
-    description: "Oferecemos soluções completas em gerenciamento de sites, incluindo hospedagem segura e manutenção contínua."
+    description: "Oferecemos soluções completas no gerenciamento de sites, incluindo hospedagem segura e manutenção contínua."
   },
   {
     icon: <PenToolIcon />,
