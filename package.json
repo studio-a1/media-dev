@@ -5,9 +5,8 @@
    "type": "module",
    "scripts": {
       "dev": "vite",
-      "build": "tsc && vite build",
-    "postbuild": "rm -f dist/wrangler.json",
-      "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "build": "tsc && vite build && echo '>>> Deleting wrangler.json...' && rm -f dist/wrangler.json && echo '>>> Deletion command finished.'",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
       "preview": "npm run build && vite preview",
       "deploy": "npm run build && wrangler deploy"
    },
