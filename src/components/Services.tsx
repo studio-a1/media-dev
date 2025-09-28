@@ -22,7 +22,7 @@ const services = [
   },
   {
     icon: <CubeIcon />,
-    title: "Integrações Blockchain",
+    title: "Integrações com Blockchain",
     description: "Integramos aplicações com a tecnologia blockchain para garantir segurança, transparência e inovação."
   }
 ];
