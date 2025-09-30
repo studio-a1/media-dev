@@ -1,67 +1,109 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studio A1 Media Dev - Soluções Web e Blockchain</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Studio A1 Media Dev oferece criação de sites e apps, gerenciamento de projetos UI/UX com IA, integrações com Blockchain e soluções web completas.">
-    <meta name="keywords" content="React, TypeScript, Web3, Blockchain, IA, UI/UX, Desenvolvimento Web, Portfólio, Studio A1">
-    <meta name="author" content="Studio A1 Media Dev">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.studioa1mediadev.com/">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio A1 — Soluções Web, UI/UX com IA e Blockchain</title>
 
-    <!-- Open Graph Meta Tags (for Facebook, LinkedIn, etc.) -->
-    <meta property="og:title" content="Studio A1 Media Dev - Soluções Web e Blockchain">
-    <meta property="og:description" content="Criação de sites e apps, gerenciamento de projetos UI/UX com IA, e integrações com Blockchain.">
-    <meta property="og:image" content="https://www.studioa1mediadev.com/st_A1_1024.png">
-    <meta property="og:url" content="https://www.studioa1mediadev.com/">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="pt_BR">
+  <!-- Primary SEO -->
+  <meta name="description" content="Studio A1 — criação de sites e apps, UI/UX com IA, integrações Blockchain e soluções web completas para empresas e projetos criativos." />
+  <meta name="keywords" content="Estúdio Web, UI/UX, React, TypeScript, Blockchain, IA, Desenvolvimento Web, Studio A1" />
+  <meta name="author" content="Studio A1" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://studioa1.com.br/" />
 
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Studio A1 Media Dev - Soluções Web e Blockchain">
-    <meta name="twitter:description" content="Especialistas em desenvolvimento web moderno, UI/UX com IA e integração com tecnologias Blockchain.">
-    <meta name="twitter:image" content="https://www.studioa1mediadev.com/st_A1_1024.png">
-    <meta name="twitter:site" content="@StudioA1Dev">
+  <!-- Mobile & theme -->
+  <meta name="theme-color" content="#000000" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Studio A1 Media Dev",
-      "url": "https://www.studioa1mediadev.com/",
-      "logo": "https://www.studioa1mediadev.com/st_A1_1024.png",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+55-XX-XXXXX-XXXX",
-        "contactType": "customer service"
+  <!-- Preload local fonts (improves LCP/CLS when fonts are critical) -->
+  <link rel="preload" href="/fonts/stencil-army.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="/fonts/teletype.woff" as="font" type="font/woff" crossorigin>
+
+  <!-- Open Graph / Twitter (improve sharing) -->
+  <meta property="og:title" content="Studio A1 — Soluções Web e Blockchain" />
+  <meta property="og:description" content="Criação de sites e apps, UI/UX orientado por IA, e integrações com Blockchain." />
+  <meta property="og:image" content="https://studioa1.com.br/st_A1_1024.png" />
+  <meta property="og:url" content="https://studioa1.com.br/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@studioa1_dev" />
+
+  <!-- Structured Data (JSON-LD) - Organization + WebSite (search box) + FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "Studio A1 Media Dev",
+        "url": "https://studioa1.com.br/",
+        "logo": "https://studioa1.com.br/st_A1_1024.png",
+        "sameAs": [
+          "https://www.facebook.com/www.studioa1.tecnologia/",
+          "https://www.instagram.com/studioa1.dev"
+        ]
       },
-      "sameAs": [
-        "https://www.facebook.com/studioa1",
-        "https://www.instagram.com/studioa1",
-        "https://www.pinterest.com/studioa1"
-      ]
-    }
-    </script>
-  <!--<script type="importmap">
-{
-  "imports": {
-    "react": "https://aistudiocdn.com/react@^19.1.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
-    "react/": "https://aistudiocdn.com/react@^19.1.1/",
-    "vite": "https://aistudiocdn.com/vite@^7.1.7",
-    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.0.3"
+      {
+        "@type": "WebSite",
+        "url": "https://studioa1.com.br/",
+        "name": "Studio A1 Media Dev",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://studioa1.com.br/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Quais serviços o Studio A1 oferece?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Criação de sites e apps, projetos UI/UX com IA, integração com Blockchain e suporte a produtos digitais.Também temos expertisse com SEO"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Vocês fazem integração com blockchain?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim — integração, consultoria e prototipagem para produtos Web3."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como entrar em contato?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use o formulário de contato de email na página ou imediata mensagem via WhatsApp."
+            }
+          }
+        ]
+      }
+    ]
   }
-}
-</script> -->
+  </script>
+  
+
 </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
-  </body>
+<body>
+  <div id="root"></div>
+
+  <!-- noscript: texto simples (SEO + fallback para bots/usuários sem JS). -->
+  <noscript>
+    <div style="padding:16px;background:#000;color:#bfffbf;font-family:monospace;">
+      <h1>Studio A1 — Desenvolvimento Web, UI/UX e Blockchain</h1>
+      <p>Oferecemos criação de sites e apps, experiências UI/UX orientadas por IA e integrações com tecnologias Blockchain. Nossos serviços incluem prototipagem, design e implantação.</p>
+      <p>Seções: <a href="#hero">Home</a> • <a href="#services">Serviços</a> • <a href="#contact">Contato</a></p>
+    </div>
+  </noscript>
+
+  <script type="module" src="./index.tsx"></script>
+</body>
 </html>
+

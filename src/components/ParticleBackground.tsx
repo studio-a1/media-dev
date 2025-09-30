@@ -1,13 +1,4 @@
-
-
 import { useRef, useEffect } from 'react';
-
-
-/*import React, { useRef, useEffect } from 'react';*/
-/*import { useRef, useEffect } from 'react';*/
-
-
-
 
 const ParticleBackground: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);

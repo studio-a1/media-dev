@@ -1,0 +1,6 @@
+
+User-agent: *
+Allow: /
+Sitemap: https://studioa1.com.br/sitemap.xml
+Disallow: /api/
+

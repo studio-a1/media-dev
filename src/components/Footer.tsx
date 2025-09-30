@@ -5,7 +5,10 @@ const Footer: React.FC = () => {
   return (
     <footer className="py-6 text-center text-gray-500 border-t border-gray-800">
       <p>&copy; {currentYear} Studio A1 Media Dev. Todos os direitos reservados.</p>
-    </footer>
+      {/* JSON-LD injetado para FAQ */}
+
+</footer>
+   
   );
 };
 
