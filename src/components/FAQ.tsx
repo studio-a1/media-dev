@@ -14,7 +14,7 @@ const faqs = [
     answer: "Sim, oferecemos gerenciamento completo de domínios. Desde registro,hospedagem segura e manutenção contínua, garantimos metas de performance e SEO."
   },
   {
-    question: "Posso explanar oque eu quero em criação de site e ou aplicativo?",
+    question: "Posso explanar o que quero em criação de site e ou aplicativo?",
     answer: "Sim claro, nós desenvolvemos sites e apps responsivos, você manda e nós realizamos com modernos e otimizados produtos de alta performance para a melhor experiência do usuário ."
   }
 ];
