@@ -38,5 +38,13 @@
    "main": "postcss.config.js",
    "keywords": [],
    "author": "",
-   "license": "ISC"
+   "license": "ISC",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/studio-a1/media-dev.git"
+   },
+   "bugs": {
+      "url": "https://github.com/studio-a1/media-dev/issues"
+   },
+   "homepage": "https://github.com/studio-a1/media-dev#readme"
 }
